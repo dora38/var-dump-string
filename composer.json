@@ -1,0 +1,29 @@
+{
+    "name": "dora38/var-dump-string",
+    "description": "Simple var_dump-and-output-control-functions string conversion.",
+    "type": "library",
+    "license": "Unlicense",
+    "autoload": {
+        "psr-4": {
+            "VarDumpString\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dora38",
+            "email": "dora38@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=9.5",
+        "ext-json": "*"
+    }
+}
